@@ -1,27 +1,27 @@
-# Analyseur-Cryptomonnaies-V2.3
+# Analyseur-Cryptomonnaies-V3.0
 
-Analyseur Cryptomonnaies afin de classé par pourcentage la meilleur monnaies à investir.L'Analyseur Cryptomonnaies est une application GUI conçue avec tkinter qui interroge l'API CoinGecko pour obtenir des informations sur les 10 principales cryptomonnaies (par capitalisation boursière). Il classe ces cryptomonnaies en fonction de leur pourcentage de changement de prix absolu au cours des dernières 24 heures et affiche ces données sous forme de graphique à barres horizontales.
+Un outil utilisant tkinter pour afficher les meilleures cryptomonnaies en pourcentage de changement en 24 heures avec une prédiction pour le prochain jour.
+Fonctionnalités
 
-Caractéristiques:
+    Affiche les 20 premières cryptomonnaies par capitalisation boursière.
+    Prédiction du pourcentage de changement pour le prochain jour basée sur les données des 7 derniers jours.
+    Mise à jour automatique toutes les 5 minutes.
+    Interactions graphiques simples pour une meilleure lisibilité.
 
-    Interrogation de l'API CoinGecko: L'application utilise la bibliothèque requests pour interroger l'API et récupérer les données des cryptomonnaies.
+Installation
 
-    Affichage graphique: L'application utilise matplotlib pour générer un graphique à barres horizontales des cryptomonnaies, classées en fonction du pourcentage de changement de prix absolu sur 24 heures.
+    Assurez-vous d'avoir installé Python et les bibliothèques nécessaires.
 
-    Interface Utilisateur: La GUI a un bouton "ACTUALISER" qui permet à l'utilisateur de rafraîchir les données et de mettre à jour le graphique.
+Installation
 
-Comment l'utiliser:
+    Assurez-vous d'avoir installé Python et les bibliothèques nécessaires.
 
-    Lancez le script.
-    L'application affichera automatiquement le graphique pour les 10 principales cryptomonnaies.
-    Utilisez le bouton "ACTUALISER" pour mettre à jour le graphique avec les données les plus récentes.
+pip install matplotlib numpy scikit-learn requests
 
-Dépendances:
+    Clonez ce dépôt:
 
-    tkinter
-    matplotlib
-    requests
+git clone [lien_vers_ce_dépôt]
 
-Note: Assurez-vous d'avoir accès à l'API CoinGecko et respectez les limites d'utilisation de l'API lors de l'utilisation de cette application.
+    Exécutez le script:
 
-Ce projet a été inspiré par l'idée de classer les cryptomonnaies en fonction de leur potentiel d'investissement, mais veuillez noter que les résultats ne doivent pas être considérés comme des conseils financiers. Investissez toujours prudemment et faites vos propres recherches.
+python Analyseur_CryptoV3.0.py
