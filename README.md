@@ -25,3 +25,5 @@ git clone [lien_vers_ce_dépôt]
     Exécutez le script:
 
 python Analyseur_CryptoV3.0.py
+
+AVHIRAL-TE@M 2023, coded by David PILATO. Donate PAYPAL : contact@avhiral.com
